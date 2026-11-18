@@ -1,0 +1,163 @@
+{
+    "Architecture": "x86_64",
+    "BlockDeviceMappings": [
+        {
+            "DeviceName": "/dev/xvda",
+            "Ebs": {
+                "AttachTime": "2026-11-17 02:55:27+00:00",
+                "DeleteOnTermination": true,
+                "Status": "attached",
+                "VolumeId": "vol-0dab7927da3c94077",
+                "EbsCardIndex": 0
+            }
+        }
+    ],
+    "ClientToken": "0c5673ab-699e-4d16-8fbf-56a4ac9b2511",
+    "EbsOptimized": true,
+    "EnaSupport": true,
+    "Hypervisor": "xen",
+    "NetworkInterfaces": [
+        {
+            "Association": {
+                "IpOwnerId": "amazon",
+                "PublicDnsName": "ec2-54-146-39-75.compute-1.amazonaws.com",
+                "PublicIp": "54.146.39.75"
+            },
+            "Attachment": {
+                "AttachTime": "2026-11-17 02:55:26+00:00",
+                "AttachmentId": "eni-attach-013656dae75c8a8aa",
+                "DeleteOnTermination": true,
+                "DeviceIndex": 0,
+                "Status": "attached",
+                "NetworkCardIndex": 0
+            },
+            "Description": "",
+            "Groups": [
+                {
+                    "GroupId": "sg-0c38430134803699d",
+                    "GroupName": "allow-all"
+                }
+            ],
+            "Ipv6Addresses": [],
+            "MacAddress": "0e:ff:ce:88:7e:27",
+            "NetworkInterfaceId": "eni-0c4a1cf40b9d0fbde",
+            "OwnerId": "793770371113",
+            "PrivateDnsName": "ip-172-31-39-40.ec2.internal",
+            "PrivateIpAddress": "172.31.39.40",
+            "PrivateIpAddresses": [
+                {
+                    "Association": {
+                        "IpOwnerId": "amazon",
+                        "PublicDnsName": "ec2-54-146-39-75.compute-1.amazonaws.com",
+                        "PublicIp": "54.146.39.75"
+                    },
+                    "Primary": true,
+                    "PrivateDnsName": "ip-172-31-39-40.ec2.internal",
+                    "PrivateIpAddress": "172.31.39.40"
+                }
+            ],
+            "SourceDestCheck": true,
+            "Status": "in-use",
+            "SubnetId": "subnet-0d667c040add6be29",
+            "VpcId": "vpc-0f7585b34d963ee26",
+            "InterfaceType": "interface",
+            "Operator": {
+                "Managed": false
+            }
+        }
+    ],
+    "RootDeviceName": "/dev/xvda",
+    "RootDeviceType": "ebs",
+    "SecurityGroups": [
+        {
+            "GroupId": "sg-0c38430134803699d",
+            "GroupName": "allow-all"
+        }
+    ],
+    "SourceDestCheck": true,
+    "Tags": [
+        {
+            "Key": "Name",
+            "Value": "test"
+        },
+        {
+            "Key": "env",
+            "Value": "dev"
+        },
+        {
+            "Key": "schudule_to_stop",
+            "Value": "true"
+        }
+    ],
+    "VirtualizationType": "hvm",
+    "CpuOptions": {
+        "CoreCount": 1,
+        "ThreadsPerCore": 2
+    },
+    "CapacityReservationSpecification": {
+        "CapacityReservationPreference": "open"
+    },
+    "HibernationOptions": {
+        "Configured": false
+    },
+    "MetadataOptions": {
+        "State": "applied",
+        "HttpTokens": "required",
+        "HttpPutResponseHopLimit": 2,
+        "HttpEndpoint": "enabled",
+        "HttpProtocolIpv6": "disabled",
+        "InstanceMetadataTags": "disabled"
+    },
+    "EnclaveOptions": {
+        "Enabled": false
+    },
+    "BootMode": "uefi-preferred",
+    "PlatformDetails": "Linux/UNIX",
+    "UsageOperation": "RunInstances",
+    "UsageOperationUpdateTime": "2026-11-17 02:55:26+00:00",
+    "PrivateDnsNameOptions": {
+        "HostnameType": "ip-name",
+        "EnableResourceNameDnsARecord": true,
+        "EnableResourceNameDnsAAAARecord": false
+    },
+    "MaintenanceOptions": {
+        "AutoRecovery": "default",
+        "RebootMigration": "default"
+    },
+    "CurrentInstanceBootMode": "uefi",
+    "NetworkPerformanceOptions": {
+        "BandwidthWeighting": "default"
+    },
+    "Operator": {
+        "Managed": false,
+        "HiddenByDefault": false
+    },
+    "SecondaryInterfaces": [],
+    "InstanceId": "i-07e2c2f6af6a0650e",
+    "ImageId": "ami-096ef200a877f36af",
+    "State": {
+        "Code": 16,
+        "Name": "running"
+    },
+    "PrivateDnsName": "ip-172-31-39-40.ec2.internal",
+    "PublicDnsName": "ec2-54-146-39-75.compute-1.amazonaws.com",
+    "StateTransitionReason": "",
+    "KeyName": "daws-86s",
+    "AmiLaunchIndex": 0,
+    "ProductCodes": [],
+    "InstanceType": "t3.micro",
+    "LaunchTime": "2026-11-17 02:55:26+00:00",
+    "Placement": {
+        "AvailabilityZoneId": "use1-az6",
+        "GroupName": "",
+        "Tenancy": "default",
+        "AvailabilityZone": "us-east-1a"
+    },
+    "Monitoring": {
+        "State": "disabled"
+    },
+    "SubnetId": "subnet-0d667c040add6be29",
+    "VpcId": "vpc-0f7585b34d963ee26",
+    "PrivateIpAddress": "172.31.39.40",
+    "PublicIpAddress": "54.146.39.75"
+}
